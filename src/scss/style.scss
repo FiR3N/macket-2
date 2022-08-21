@@ -133,14 +133,12 @@ h6{
     color: #017CFF;
     text-decoration: underline;
 }
-.p-link {
+.footer-link {
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 140%;
     color: #0F0F0F;
-    &:not(:last-child){
-        margin-bottom: 9px;
-    }
+
 }
 
 .num {
@@ -975,6 +973,9 @@ h6{
     &-links{
         display: flex;
         gap: 6.5625rem;
+        p{
+            margin-bottom: 9px;
+        }
     }
     &-link{
 
